@@ -22,9 +22,9 @@ A **modern, dark-themed To-Do List** built with **React** and **Vite**, featurin
 
 ---
 
-## 📸 Screenshots / Demo
+## 🎬 Demo
 
-*(It Will Be Added Soon.....)*
+![To-Do App Demo](demo/TO-DO-APP.gif)
 
 ---
 
@@ -61,15 +61,27 @@ npm run dev
 ## 📂 Project Structure
 
 ```
-src/
-├── App.jsx
-├── main.jsx
-├── index.css
-├── components/
-│   ├── Filters.jsx
-│   ├── ToDoForm.jsx
-│   └── ToDoItem.jsx
-└── index.html
+TO-DO-APP/
+├── demo/
+│   └── TO-DO-APP.gif
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   ├── components/
+│   │   ├── Filters.jsx
+│   │   ├── ToDoForm.jsx
+│   │   └── ToDoItem.jsx
+│
+├── .gitignore
+├── index.html
+├── README.md
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── eslint.config.js
+
 ```
 
 ---
